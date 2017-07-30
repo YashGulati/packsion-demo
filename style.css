@@ -59,7 +59,6 @@ header .bg-image button {
   border: 1px solid #fff;
   background: rgba(0,0,0,0.4);
   font-size: 1.4em;
-  transition: all 1s ease;
   color: #fff;
   min-width: 200px;
   border: 1px solid #fff;
@@ -70,6 +69,10 @@ header .bg-image button {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 13px;
+  transition-property: initial;
+  transition-duration: 0.3s;
+  transition-timing-function: initial;
+  transition-delay: initial;
 }
 header .bg-image button:hover {
   color: #3c3d41;
