@@ -94,3 +94,6 @@ nav ul li a {
   background: #ffa500;
   color: #fff;
 }
+.section2 .package {
+  display: none;
+}
