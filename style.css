@@ -95,5 +95,8 @@ nav ul li a {
   color: #fff;
 }
 .section2 .package {
+  color: #000;
+  margin: 8% 0%;
+  font-size: 1.2em;
   display: none;
 }
