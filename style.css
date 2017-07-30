@@ -72,8 +72,8 @@ header .bg-image button {
   font-size: 13px;
 }
 header .bg-image button:hover {
-  background: rgba(255,255,255,0.4);
-  color: #000;
+  color: #3c3d41;
+  background: #fff;
 }
 header .header-text {
   position: absolute;
