@@ -102,13 +102,13 @@ nav ul li a {
   outline: none;
 }
 .packages {
-  height: 80vh;
+  height: 60vh;
   margin: 0;
   background: #eee;
 }
 .packages .package {
   color: #000;
-  margin: 8% 0%;
+  margin: 1% 0%;
   font-size: 1.2em;
   display: none;
 }
