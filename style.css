@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:900");
 body {
-  background: #eee;
+  background: #fff;
   padding: 0;
   margin: 0;
   color: #fff;
   font-family: 'Raleway', sans-serif;
 }
 section {
-  background: #eee;
   margin: 0;
 }
 section h1 {
@@ -15,7 +14,7 @@ section h1 {
 }
 header {
   overflow: hidden;
-  height: 75vh;
+  height: 85vh;
   position: relative;
 }
 header .left-image {
@@ -31,7 +30,7 @@ header .bg-image {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 75vh;
+  height: 85vh;
   transition: all 0.3s ease;
   cursor: pointer;
 }
@@ -96,7 +95,6 @@ nav ul li a {
   color: #fff;
 }
 .section2 {
-  background: #eee;
   margin: 0;
   margin-top: 24%;
   padding: 5% 20%;
@@ -124,7 +122,6 @@ nav ul li a {
 .packages {
   height: 60vh;
   margin: 0;
-  background: #eee;
 }
 .packages .package {
   color: #000;
