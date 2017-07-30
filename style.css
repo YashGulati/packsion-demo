@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:900");
+button:focus {
+  outline: none;
+}
 body {
   background: #fff;
   padding: 0;
@@ -151,9 +154,6 @@ nav ul li a {
 .section2 div button:hover {
   background: #ed7d31;
   color: #fff;
-}
-.section2 div button:focus {
-  outline: none;
 }
 .packages {
   height: 60vh;
