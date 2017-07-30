@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:900");
 body {
-  background: #000;
+  background: #eee;
   padding: 0;
   margin: 0;
   color: #fff;
@@ -67,7 +68,7 @@ header .header-text span {
 nav {
   padding: 30px 5% 30px;
   position: relative;
-  background-color: rgba(0,0,0,0.51);
+  background-color: rgba(0,0,0,0.9);
   height: 100px;
   display: block;
 }
@@ -93,7 +94,7 @@ nav ul li a {
 .section2 {
   background: #eee;
   margin: 0;
-  margin-top: 2%;
+  margin-bottom: 2%;
   padding: 5% 20%;
 }
 .section2 div {
@@ -131,10 +132,10 @@ nav ul li a {
   padding: 2% 8% 1% 8%;
 }
 .products h1 {
-  font-weight: 700;
+  font-weight: 900;
   color: #000;
   text-align: center;
-  margin-bottom: 2%;
+  margin: 4% 0%;
 }
 .products .product img {
   width: 100%;
