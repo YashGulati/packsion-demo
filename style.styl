@@ -1,0 +1,77 @@
+body
+  background: black
+  padding: 0
+  margin: 0
+  color: white
+  font-family: 'Raleway', sans-serif
+header
+  // background: url('https://packsion.com/packsion/img/home-bg.jpg')
+  padding: 18% 5%
+  position: relative
+  .left-image
+    background: url('images/men.jpg')
+    left: 0%
+    right: 50%
+  .right-image
+    background: url('images/women.jpg')
+    left: 50%
+    right: 0%
+  .bg-image
+    // z-index: -1
+    position: absolute
+    top: 0px
+    bottom: 0px
+    background-position: top
+    background-repeat: no-repeat
+    background-size: cover
+    height: 80vh
+    .light
+      position: absolute
+      top: 0
+      bottom: 0
+      left: 0
+      right: 0
+      background: rgba(0, 0, 0, 0.4)
+      display: none
+  .header-text
+    z-index: 99999
+    text-align: center
+    color: #000
+    span, div
+      z-index: 55
+    span
+      font-size: 5em
+      margin: 0 25%
+nav
+  padding: 30px 5% 30px
+  position: relative
+  background-color: rgba(0, 0, 0, 0.51)
+  height: 100px
+  // width: 100%
+  display: block
+  .logo
+    float: left
+  ul
+    list-style: none
+    float: right
+    text-transform: uppercase
+    li
+      display: inline
+      a
+        font-size: 13px;
+        font-weight: bold;
+        padding: 10px 15px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+
+.section2
+  background: #eee
+  padding: 5% 5%
+  button
+    border: none
+    padding: 1% 4%
+    border-radius: 15px
+    &:hover
+      color: orange
+      background: white
