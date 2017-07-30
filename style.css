@@ -60,6 +60,16 @@ header .bg-image button {
   background: rgba(0,0,0,0.4);
   font-size: 1.4em;
   transition: all 1s ease;
+  color: #fff;
+  min-width: 200px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
 }
 header .bg-image button:hover {
   background: rgba(255,255,255,0.4);
@@ -67,7 +77,7 @@ header .bg-image button:hover {
 }
 header .header-text {
   position: absolute;
-  top: 45%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
