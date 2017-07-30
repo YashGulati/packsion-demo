@@ -5,6 +5,13 @@ body {
   color: #fff;
   font-family: 'Raleway', sans-serif;
 }
+section {
+  background: #eee;
+  margin: 0;
+}
+section h1 {
+  margin: 0;
+}
 header {
   overflow: hidden;
   padding: 18% 5%;
@@ -86,6 +93,7 @@ nav ul li a {
 .section2 {
   background: #eee;
   margin: 0;
+  margin-top: 2%;
   padding: 5% 20%;
 }
 .section2 div {
@@ -118,4 +126,16 @@ nav ul li a {
   margin: 1% 0%;
   font-size: 1.2em;
   display: none;
+}
+.products {
+  padding: 2% 8% 1% 8%;
+}
+.products h1 {
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.products .product img {
+  width: 100%;
 }
