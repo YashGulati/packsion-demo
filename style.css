@@ -34,10 +34,10 @@ header .bg-image {
   transition: all 0.3s ease;
   cursor: pointer;
 }
-header .bg-image .lightness,
-header .bg-image background-color: rgba(255,
-header .bg-image 255,
-header .bg-image 1),
+header .bg-image .lightness {
+  background-color: #f00;
+  z-index: 9999;
+}
 header .bg-image:hover {
   -moz-transform: scale(1.02);
   -webkit-transform: scale(1.02);
@@ -172,9 +172,33 @@ nav ul li a {
 .products h1 {
   font-weight: 900;
   color: #000;
-  text-align: center;
   margin: 4% 0% 4%;
+}
+.products .product {
+  text-align: center;
 }
 .products .product img {
   width: 100%;
+}
+.products .product button {
+  text-align: center;
+  display: inline;
+  margin: 0 auto;
+  display: inline;
+  border: 2px solid #ed7d31;
+  width: 250px;
+  height: 40px;
+  border-radius: 50px;
+  background: #fff;
+  color: #111;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.products .product button:hover {
+  background: #ed7d31;
+  color: #fff;
+}
+.products .product button:focus {
+  outline: none;
 }

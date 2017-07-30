@@ -35,7 +35,8 @@ header
     transition: all 0.3s ease
     cursor: pointer
     .lightness
-    background-color: rgba(255, 255, 255, 1)
+      background-color: red
+      z-index: 9999
     &:hover
       -moz-transform: scale(1.02);
       -webkit-transform: scale(1.02);
@@ -155,8 +156,27 @@ nav
   h1
     font-weight: 900
     color: black
-    text-align: center
     margin: 4% 0% 4%
   .product
+    text-align: center
     img
       width: 100%
+    button
+      text-align: center
+      display: inline
+      margin: 0 auto
+      display: inline
+      border 2px solid #ed7d31
+      width: 250px
+      height: 40px
+      border-radius: 50px;
+      background white
+      color #111
+      font-weight: bold
+      text-transform uppercase
+      transition: 0.3s
+      &:hover
+        background #ed7d31
+        color white
+      &:focus
+        outline: none
