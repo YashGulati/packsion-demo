@@ -78,12 +78,16 @@ nav ul li a {
 }
 .section2 {
   background: #eee;
-  padding: 5% 5%;
-  height: 80vh;
+  margin: 0;
+  padding: 5% 20%;
+}
+.section2 div {
+  text-align: center;
 }
 .section2 div button {
-  border: 2px solid #ffa500;
-  padding: 6% 15%;
+  display: inline;
+  border: 2px solid #ed7d31;
+  padding: 10% 25%;
   border-radius: 15px;
   background: #fff;
   color: #111;
@@ -91,10 +95,18 @@ nav ul li a {
   text-transform: uppercase;
 }
 .section2 div button:hover {
-  background: #ffa500;
+  background: #ed7d31;
   color: #fff;
 }
-.section2 .package {
+.section2 div button:focus {
+  outline: none;
+}
+.packages {
+  height: 80vh;
+  margin: 0;
+  background: #eee;
+}
+.packages .package {
   color: #000;
   margin: 8% 0%;
   font-size: 1.2em;
