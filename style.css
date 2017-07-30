@@ -71,7 +71,6 @@ header .bg-image button {
   margin-top: 20px;
   padding: 10px 40px;
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
   font-size: 13px;
   transition-property: initial;
   transition-duration: 0.3s;
@@ -173,6 +172,7 @@ nav ul li a {
   font-weight: 900;
   color: #000;
   margin: 4% 0% 4%;
+  text-align: center;
 }
 .products .product {
   text-align: center;
@@ -194,6 +194,7 @@ nav ul li a {
   font-weight: bold;
   text-transform: uppercase;
   transition: 0.3s;
+  margin-top: 10%;
 }
 .products .product button:hover {
   background: #ed7d31;
