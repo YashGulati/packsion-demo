@@ -15,26 +15,23 @@ section h1 {
 }
 header {
   overflow: hidden;
-  padding: 18% 5%;
+  height: 75vh;
   position: relative;
 }
 header .left-image {
   background: url("images/men.jpg");
-  left: 0%;
-  right: 50%;
 }
 header .right-image {
   background: url("images/women.jpg");
-  left: 50%;
-  right: 0%;
 }
 header .bg-image {
-  position: absolute;
+  width: 50%;
   top: 0px;
   bottom: 0px;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 75vh;
   transition: all 0.3s ease;
   cursor: pointer;
 }
@@ -53,9 +50,16 @@ header .bg-image .light {
   display: none;
 }
 header .header-text {
-  z-index: 99999;
-  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: #000;
+  font-size: 1.8em;
+  text-align: center;
+}
+header .header-text img {
+  margin-bottom: 5%;
 }
 header .header-text span,
 header .header-text div {
