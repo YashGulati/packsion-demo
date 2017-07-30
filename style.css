@@ -79,13 +79,18 @@ nav ul li a {
 .section2 {
   background: #eee;
   padding: 5% 5%;
+  height: 80vh;
 }
-.section2 button {
-  border: none;
-  padding: 1% 4%;
+.section2 div button {
+  border: 2px solid #ffa500;
+  padding: 6% 15%;
   border-radius: 15px;
-}
-.section2 button:hover {
-  color: #ffa500;
   background: #fff;
+  color: #111;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.section2 div button:hover {
+  background: #ffa500;
+  color: #fff;
 }
