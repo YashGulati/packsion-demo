@@ -6,6 +6,7 @@ body
   font-family: 'Raleway', sans-serif
 header
   // background: url('https://packsion.com/packsion/img/home-bg.jpg')
+  overflow: hidden
   padding: 18% 5%
   position: relative
   .left-image
@@ -24,7 +25,13 @@ header
     background-position: top
     background-repeat: no-repeat
     background-size: cover
-    height: 80vh
+    // height: 80vh
+    transition: all 0.3s ease
+    cursor: pointer
+    &:hover
+      -moz-transform: scale(1.02);
+      -webkit-transform: scale(1.02);
+      transform: scale(1.02);
     .light
       position: absolute
       top: 0

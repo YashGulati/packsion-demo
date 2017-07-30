@@ -6,6 +6,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 header {
+  overflow: hidden;
   padding: 18% 5%;
   position: relative;
 }
@@ -26,7 +27,13 @@ header .bg-image {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+header .bg-image:hover {
+  -moz-transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
 }
 header .bg-image .light {
   position: absolute;
