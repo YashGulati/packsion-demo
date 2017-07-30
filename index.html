@@ -41,15 +41,15 @@
       <h1>Kutularımız</h1>
       <div class="product col-md-4">
         <img src="images/box1.png" alt="" class="wow pulse animated" data-wow-delay="300ms" data-wow-iteration="infinite" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 300ms; animation-iteration-count: infinite; animation-name: pulse;">
-        <button type="button" name="button" class="package package-button1">The Packer</button>
+        <button type="button" name="button" class="package-button package-button1">The Packer</button>
       </div>
       <div class="product col-md-4">
         <img src="images/box2.png" alt="" class="wow pulse animated" data-wow-delay="300ms" data-wow-iteration="infinite" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 300ms; animation-iteration-count: infinite; animation-name: pulse;">
-        <button type="button" name="button" class="package-button2">The Packson</button>
+        <button type="button" name="button" class="package-button package-button2">The Packson</button>
       </div>
       <div class="product col-md-4">
         <img src="images/box3.png" alt="" class="wow pulse animated" data-wow-delay="300ms" data-wow-iteration="infinite" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 300ms; animation-iteration-count: infinite; animation-name: pulse;">
-        <button type="button" name="button" class="package-button3">The Packsionist</button>
+        <button type="button" name="button" class="package-button package-button3">The Packsionist</button>
       </div>
     </section>
     <section class="section2 row">
@@ -124,14 +124,20 @@
       }
       );
       $(".package-button1").click(function()  {
+        $(".package-button").removeClass("selected");
+        $(".package-button1").addClass("selected");
         $(".package").hide();
         $(".package1").fadeIn();
       })
       $(".package-button2").click(function()  {
+        $(".package-button").removeClass("selected");
+        $(".package-button2").addClass("selected");
         $(".package").hide();
         $(".package2").fadeIn();
       })
       $(".package-button3").click(function()  {
+        $(".package-button").removeClass("selected");
+        $(".package-button3").addClass("selected");
         $(".package").hide();
         $(".package3").fadeIn();
       });

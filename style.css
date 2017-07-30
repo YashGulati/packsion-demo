@@ -155,6 +155,10 @@ nav ul li a {
   background: #ed7d31;
   color: #fff;
 }
+.section2 div button.selected {
+  background: #ed7d31;
+  color: #fff;
+}
 .packages {
   height: 60vh;
   margin: 0;
@@ -200,6 +204,7 @@ nav ul li a {
   background: #ed7d31;
   color: #fff;
 }
-.products .product button:focus {
-  outline: none;
+.products .product button.selected {
+  background: #ed7d31;
+  color: #fff;
 }
